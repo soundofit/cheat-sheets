@@ -1,6 +1,12 @@
 # JavaScript For Loop Cheat Sheet
 This is a supplement to [soundof.it JavaScript For Loop](https://soundof.it/javascript-for-loop).
 
+#### Table of Contents
+1. [ES1 Classic For Loop](#es1-classic-for-loop)
+2. [ES1 for...in Loop](#es1-forin-loop)
+3. [ES5 forEach Loop](#es5-foreach-loop)
+4. [ES6 for...of Loop](#es6-forof-loop)
+
 ---
 
 ## ES1 Classic For Loop
