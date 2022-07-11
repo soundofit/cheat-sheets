@@ -39,16 +39,18 @@ for (var i = 0; i < foo.length; i++) {
 ### Returning
 Using the `return` keyword within the block of the classic ES1 for loop throws `Uncaught SyntaxError: Illegal return statement`.
 
-### Breaking
-The classic ES1 for loop can be halted using the `break` keyword.
+### Halting
+The classic ES1 for loop can be explicitly halted:
+* by using the `break` keyword, or
+* through throwing an exception.
 
 ---
 
 ## ES1 for...in Loop
-The for...in loop was introduced in ES1.
+The `for...in` loop was introduced in ES1.
 
 ### Syntax
-The ES1 for...in loop is constructed through using the `for` keyword, a loop key variable name, the keyword `in` and the object reference.
+The ES1 `for...in` loop is constructed through using the `for` keyword, a loop key variable name, the keyword `in` and the object reference.
 
 ```JavaScript
 const captains = {
@@ -63,13 +65,15 @@ for (var captain in captains) {
 ```
 
 ### Usage
-The ES1 for...in loop can be used to loop over object keys when the order of the keys is not important as the order is not guaranteed by the ES1 for...in loop.
+The ES1 `for...in` loop can be used to loop over object keys when the order of the keys is not important as the order is not guaranteed by the ES1 for...in loop.
 
 ### Returning
-Using the `return` keyword within the block of the ES1 for...in loop throws `Uncaught SyntaxError: Illegal return statement`.
+Using the `return` keyword within the block of the ES1 `for...in` loop throws `Uncaught SyntaxError: Illegal return statement`.
 
-### Breaking
-The ES1 for...in loop can be halted using the `break` keyword.
+### Halting
+The ES1 `for...in` loop can be explicitly halted:
+* by using the `break` keyword, or
+* through throwing an exception.
 
 ---
 
